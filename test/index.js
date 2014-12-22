@@ -1,15 +1,34 @@
 var tanh = require('../');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
+var isNaN = require('lodash.isnan');
 
 test('exports a function', function(t) {
   t.plan(1);
   t.ok(isFunction(tanh));
 });
 
-test('calculates hyperbolic tangent', function(t) {
-  t.plan(3);
-  t.equal(tanh(0), 0);
-  t.equal(tanh(Infinity), 1);
-  t.equal(tanh(1), 0.7615941559557649);
+test('NaN', function(t) {
+  t.plan(1);
+  t.ok(isNaN(tanh(NaN)));
+});
+
+test('+0', function(t) {
+  t.plan(1);
+  t.equal(tanh(+0), +0);
+});
+
+test('-0', function(t) {
+  t.plan(1);
+  t.equal(tanh(-0), -0);
+});
+
+test('+INFINITY', function(t) {
+  t.plan(1);
+  t.equal(tanh(Number.POSITIVE_INFINITY), +1);
+});
+
+test('-INFINITY', function(t) {
+  t.plan(1);
+  t.equal(tanh(Number.NEGATIVE_INFINITY), -1);
 });
