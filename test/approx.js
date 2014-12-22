@@ -22,7 +22,7 @@ test('sloppy algebraic expression', function(t) {
   }
 });
 
-test('sloppy algebraic expression', function(t) {
+test('sloppy approximations', function(t) {
   var FIXTURES = [
     [-0.9999983310699463, -6.998237084679027],
     [-0.9999978542327881, -6.87257975132917],
