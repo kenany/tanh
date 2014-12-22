@@ -1,4 +1,4 @@
-function tanh(x) {
+module.exports = Math.tanh || function tanh(x) {
   if (x === Infinity) {
     return 1;
   }
@@ -9,6 +9,4 @@ function tanh(x) {
 
   var y = Math.exp(x * 2);
   return (y - 1) / (y + 1);
-}
-
-module.exports = tanh;
+};
