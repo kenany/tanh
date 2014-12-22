@@ -288,7 +288,7 @@ test('sloppy approximations', function(t) {
     [0.00001, 0.000010000000000333334],
     [0.3, 0.3095196042031117],
     [1e-30, 1e-30],
-    [1e-10, 1e-10],
+    [1e-10, 1e-10]
   ];
 
   t.plan(FIXTURES.length);
