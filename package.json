@@ -20,6 +20,7 @@
     "test": "tape test/*.js"
   },
   "devDependencies": {
+    "@kenan/renovate-config": "^1.4.0",
     "defined": "^1.0.0",
     "lodash.isfunction": "^3.0.8",
     "lodash.isnan": "^3.0.2",
