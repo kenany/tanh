@@ -1,7 +1,5 @@
 # tanh
 
-[![Build Status][travis-svg]][travis]
-
 Calculate the hyperbolic tangent of a number.
 
 ## Example
@@ -28,7 +26,3 @@ var tanh = require('tanh');
 ### `tanh(x)`
 
 Given a _Number_ `x`, returns the hyperbolic tangent of `x` as a _Number_.
-
-
-   [travis]: https://travis-ci.org/KenanY/tanh
-   [travis-svg]: https://img.shields.io/travis/KenanY/tanh.svg
