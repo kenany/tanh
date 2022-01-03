@@ -1,7 +1,9 @@
-var tanh = require('../');
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var isNaN = require('lodash.isnan');
+'use strict';
+
+const tanh = require('../');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const isNaN = require('lodash.isnan');
 
 test('exports a function', function(t) {
   t.plan(1);

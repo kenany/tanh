@@ -1,6 +1,8 @@
-var tanh = require('../');
-var test = require('tape');
-var defined = require('defined');
+'use strict';
+
+const tanh = require('../');
+const test = require('tape');
+const defined = require('defined');
 
 function tolerance(precision) {
   precision = defined(precision, 7);

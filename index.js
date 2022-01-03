@@ -1,3 +1,10 @@
+'use strict';
+
+/**
+ * @param {number} x A numeric expression that contains an angle measured in
+ *  radians.
+ * @returns {number} Hyperbolic tangent of `x`.
+ */
 module.exports = Math.tanh || function tanh(x) {
   if (x === Infinity) {
     return 1;
