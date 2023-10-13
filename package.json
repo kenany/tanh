@@ -1,6 +1,6 @@
 {
   "name": "tanh",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Calculate the hyperbolic tangent of a number",
   "keywords": [
     "math"
