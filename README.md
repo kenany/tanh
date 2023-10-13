@@ -5,7 +5,7 @@ Calculate the hyperbolic tangent of a number.
 ## Example
 
 ``` javascript
-var tanh = require('tanh');
+const tanh = require('tanh');
 
 tanh(1);
 // => 0.7615941559557649
@@ -20,7 +20,7 @@ $ npm install tanh
 ## API
 
 ``` javascript
-var tanh = require('tanh');
+const tanh = require('tanh');
 ```
 
 ### `tanh(x)`
