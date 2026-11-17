@@ -4,7 +4,7 @@ Calculate the hyperbolic tangent of a number.
 
 ## Example
 
-``` javascript
+```javascript
 import { tanh } from 'tanh';
 
 tanh(1);
@@ -13,13 +13,13 @@ tanh(1);
 
 ## Installation
 
-``` bash
+```bash
 $ npm install tanh
 ```
 
 ## API
 
-``` javascript
+```javascript
 import { tanh } from 'tanh';
 ```
 
